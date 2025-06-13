@@ -1,7 +1,7 @@
 BOT_NAME = "bookscraper"
 
-SPIDER_MODULES = ["bookscraper.spiders"]
-NEWSPIDER_MODULE = "bookscraper.spiders"
+SPIDER_MODULES = ["books_scrappy.books_scrap.spiders"]
+NEWSPIDER_MODULE = "books_scrappy.books_scrap.spiders"
 
 ADDONS = {}
 

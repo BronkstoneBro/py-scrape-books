@@ -12,7 +12,7 @@ class BooksSpider(scrapy.Spider):
 
     def __init__(self, last_page: int = 1, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
-        self.last_page = last_page
+        self.last_page = int(last_page)
 
     def start_requests(self) -> Generator:
         headers = {"User-Agent": "Mozilla/5.0"}
